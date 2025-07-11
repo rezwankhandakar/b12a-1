@@ -75,13 +75,36 @@ nav{
     border-radius: 48px;
 }
 /* productive-us-section */
-.productive-us-section{
-    background-color: #c0c0ee;
-    margin: 116px 159px;
+.pro-user-title{
+    font-size:38px;
+    font-weight:bold;
+    margin-bottom: 30px;
+    color:#252432;
 }
-.productive-us-container{
-    justify-content: space-around;
+.pro-user-bg{
+    background-color: #bfbee3;
 }
-.retio-container{
+.pro-user-section{
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+.item-retio{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.item-name{
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+}
+.pro-user-items{
     display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+
 }
