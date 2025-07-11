@@ -1,0 +1,87 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* nav-styles */
+.nav-logo{
+font-weight: 900;
+font-size: 34px;
+color: #4E47FF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+}
+/* header-style */
+.header-bg{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    justify-items: center;
+    text-align: center;
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner-content{
+    position: absolute;
+    top: 309px;
+    left: 267.5px;
+    right: 267.5px;
+    bottom: 152px;
+}
+/* action-section-style */
+.action-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-sub-title{
+    font-weight: 400;
+    font-size: 24px;
+    color: #252432;
+}
+.action-img{
+    border-radius: 48px;
+}
+/* productive-us-section */
+.productive-us-section{
+    background-color: #c0c0ee;
+    margin: 116px 159px;
+}
+.productive-us-container{
+    justify-content: space-around;
+}
+.retio-container{
+    display: flex;
+}
