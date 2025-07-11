@@ -108,3 +108,44 @@ nav{
 
 
 }
+/* users-say-section */
+.users-say-items{
+    background-color: #f9f3f3;
+    border-radius: 10px;
+    width:400px;
+    height: 280px;
+}
+.icon-star{
+    display: flex;
+}
+.reviewer-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rev-img{
+    border-radius: 50%;
+    height: 50px;
+}
+.users-say-item{
+    padding: 20px 20px;
+}
+.reviewer-name h5.rev-name {
+    margin-bottom: 2px}
+    .reviewer-name h6.date {
+    margin-top: 0;
+}
+.date{
+    color: #B3B3B3;
+    font-weight: normal;
+}
+.rev-name{
+    color: #757575;
+}
+.users-say-container{
+    display: flex;
+    justify-content: space-around;
+}
+.users-say-title{
+    text-align: center;
+}
